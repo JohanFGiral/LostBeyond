@@ -69,7 +69,7 @@ public class MovimientoJugadortr : MonoBehaviour
             if (movimientoHorizontal < 0.0f) transform.localScale = new Vector3(-1.2f, 1.2f, 1.2f);
             else if (movimientoHorizontal > 0.0f) transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         }
-
+        animator.SetBool("jumping", !IsGrounded());
         if (estaSaltando && IsGrounded())
         {
             rb2D.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
@@ -79,6 +79,7 @@ public class MovimientoJugadortr : MonoBehaviour
         {
             estaSaltando = false;
         }
+        
     }
 
     private void FixedUpdate()

@@ -10,6 +10,7 @@ public class CallDialogueInteraction : MonoBehaviour
 
     [Tooltip("El GameObject que se desactivará (ej. Luna_idle_animation_0 si es la 'llave')")]
     public GameObject keyToDeactivate;
+    public GameObject toactivate;
 
     [Header("Trigger Settings")]
     [Tooltip("Etiqueta del objeto jugador.")]
@@ -87,6 +88,7 @@ public class CallDialogueInteraction : MonoBehaviour
         {
             Debug.Log("'" + gameObject.name + "': Retraso completado. Desactivando '" + keyToDeactivate.name + "'.");
             keyToDeactivate.SetActive(false);
+            toactivate.SetActive(true);
         }
         else if (keyToDeactivate != null)
         {

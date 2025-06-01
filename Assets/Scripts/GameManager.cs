@@ -53,7 +53,16 @@ public class GameManager : MonoBehaviour
     {
         vidas--;
         hud.DesactivarVida(vidas);
-        ResetLevel();
+        if (vidas <= 0)
+        {
+            SceneManager.LoadScene(4);
+            vidas = 3;
+        }
+        else
+        {
+            ResetLevel();
+        }
+        
     }
 
     public void RecuperarVidas()
