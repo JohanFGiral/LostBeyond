@@ -10,20 +10,10 @@
 
 ## Funcionalidades de usuario
 
-Lost Beyond permitira al ususario moverse libremente por el mapa asi como poder guardar los datos correspondientes de la partida de manera local, el usuario podra:
-
-1. Moverse libremente en direccion izquierda y derecha, saltar y agacharse
-
-2. El Jugador podra pausar y resumir el juego en el momento que desee
-
-3. El jugador podra interactuar con objetos del mapa
-
-4. El jugador podra resolver puzzles para desbloquear elementos, objetos y zonas
-
-5. El jugador podra reiniciar el nivel libremente
-
-6. El jugador podra completar misiones ocultas 
-
-7. El jugador podra guardar la partida
-
-8. El jugador podra usar su nickname en el personaje principal
+1. El jugador podrá moverse libremente en direccion izquierda y derecha, saltar con las flechas en pantalla
+2. El jugador podrá realizar un deslizamiento hacia el lado clickeado atraves del boton que aparece al lado del salto
+3. El Jugador tendra tres vidas para completar el juego, una vez gastadas estas tres vidas una pantalla de Game over se mostrara y le permitira reintentar el juego o cerrarlo.
+4. Al reintentar el jugador reaparecera en el nivel inicial con las tres vidas iniciales. 
+5. El jugador podra ver objetos interactuables con un icono de signo de admiracion sobre ellos
+6. El jugador podra interactuar con objetos o personajes, atraves del boton de dash encontrado al lado del boton de salto 
+7. El jugador podra recolectar pistas interactuando con los objetos 
