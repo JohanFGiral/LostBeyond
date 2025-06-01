@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 68a8fb3c6542494498b6ed88adc77736
+guid: 0e0b4d5a3fdae0d4197c71744f87ba08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2469323907309148248
-    second: tercera llave_0
+      213: 5912589756444407452
+    second: Cartel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tercera llave_0
+      name: Cartel_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 5
-        width: 43
-        height: 57
+        x: 0
+        y: 0
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8589a8ab20dc44220800000000000000
-      internalID: 2469323907309148248
+      spriteID: c967b77ae0dbd0250800000000000000
+      internalID: 5912589756444407452
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tercera llave_0: 2469323907309148248
+      Cartel_0: 5912589756444407452
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
