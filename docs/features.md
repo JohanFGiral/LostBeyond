@@ -18,4 +18,4 @@
 6. El jugador podra interactuar con objetos o personajes, atraves del boton de dash encontrado al lado del boton de salto 
 7. El jugador podra recolectar pistas interactuando con los objetos
 8. Para poder interacturar con el acertijo el jugador debe recolectar las pistas con anterioridad.
-
+9. El jugador podra tocar los botones con los numeros respectivos dentro del acertijo 
